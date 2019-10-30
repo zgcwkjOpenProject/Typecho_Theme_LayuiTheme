@@ -1,0 +1,186 @@
+﻿/**
+ @Name: layui框架制作
+ @Author: 邵先森博客
+ @Copyright: ayceo.com
+ */
+
+/* 侧边头像 */ 
+.moe-headimg {
+	width: 120px;
+	height: 120px;
+  border-radius: 50%;
+}
+/* 侧边头像END */ 
+
+/* 头像旋转 */
+.moe-headimg-xz {
+    margin: 0 auto;
+    -webkit-background-size: 220px 220px;
+    -moz-background-size: 220px 220px;
+    background-size: 220px 220px;
+    -webkit-transition: -webkit-transform 0.5s ease-out;
+    -moz-transition: -moz-transform 0.5s ease-out;
+    -o-transition: -o-transform 0.5s ease-out;
+    -ms-transition: -ms-transform 0.5s ease-out;
+}
+.moe-headimg-xz:hover {
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+/* 头像旋转END */
+
+/* 文章图片大小 */
+.moe-post-img {
+	width: 300px;
+	height: 168px;
+}
+/* 文章图片大小END */
+
+/* 版权 */
+.zhongdan {
+	text-align: center;
+	color: #fff;
+	font-weight: 600px;
+	margin-bottom: 10px;
+}
+/* 版权hr */
+.moe-hr {
+	width: 50%;
+}
+/* 版权END */
+
+/* 文章分类样式 */
+.moe-fl-css a {
+	color: #fff!important;
+}
+/* 文章分类样式 END*/
+
+/* 评论区 */
+.moe-comments-login {
+	color: #fff;
+	font-weight: 600px;
+	margin-bottom: 10px;
+}
+.moe-comments-login a {
+	color: #F44336;
+	font-weight: 900px;
+	margin-bottom: 10px;
+}
+.moe-comments-login-name {
+	color: #F44336;
+	font-weight: 900px;
+	margin-bottom: 10px;
+}
+.moe-comments-headimg .avatar {
+	width: 50px;
+	height: 50px;
+    border-radius: 50%;
+}
+.moe-comments-hf {
+	color: #F44336;
+}
+.moe-input-name {
+	float: left;
+	width: 45%
+}
+.moe-input-email {
+	float: right;
+	width: 45%
+}
+@media (max-width: 600px){
+  .moe-input-name {
+    width: 100%
+  }
+  .moe-input-email {
+    width: 100%
+  }
+}
+/* 评论区END */
+
+/* 底部页码选项条 */
+.page-navigator{
+	font-size: 1.2em;
+	line-height: 1.5;
+	text-align: center;
+}
+.page-navigator a{ color: #fff }
+.page-navigator li{
+	color: #fff;
+	margin: 1em 0;
+	padding: .5em .75em;
+	background: rgba(255, 255, 255, .2);
+	display: inline-block;
+}
+.page-navigator li.current{
+	background: #a58c56;
+}
+/* 底部页码选项条END */
+
+/* 博客统计信息 */
+.archives-count {
+    width: 100%;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+.archives-count th, .archives-count td {
+    /*border: 1px solid #ececec;*/
+    border: none;
+    padding: 5px 0 8px;
+    cursor: pointer;
+}
+@media screen and (min-width: 650px) {
+    .archives-count td {
+        width: 20%;
+    }
+}
+.archives-count span {
+    margin: 0 auto 5px;
+    display: block;
+    font-size: 20px;
+    color: #adabab;
+}
+/* 博客统计信息END */
+
+/* 归档页样式 */
+.entry-content {
+    margin-top: 20px;
+}
+/* 归档列表 */
+#all-post-archives {
+    margin-bottom: 25px;
+}
+#all-post-archives ul {
+    list-style: none;
+    overflow: hidden;
+    padding-left: 18px;
+}
+/* 年份标题 */
+#all-post-archives .year {
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+/* 每个月的文章内容 */
+#all-post-archives .mon-list>li {
+    margin-bottom: 12px;
+}
+/* 月份标题 */
+#all-post-archives .mon {
+    cursor: pointer;
+}
+/* 每个单独的一条 */
+#all-post-archives .post-list>li {
+    color: #c1c1c1;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#all-post-archives .post-list>li>a {
+    margin-left: 5px;
+    border: none!important;
+}
+/* 归档页样式END */
